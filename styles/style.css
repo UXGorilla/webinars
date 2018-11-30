@@ -50,6 +50,7 @@
 	padding: 0px !important;
 }
 .topicimage{
+	border-radius: 4px;
 	width: 100%;
 }
 p{
@@ -72,6 +73,10 @@ hr{
 	white-space: normal;
 	margin: 30px 0px;
 }
+.webinar-card-btn a {
+	text-decoration: none;
+    color: white;
+}
 .details-btn{
 	letter-spacing: 2px;
 	color: #ffffff;
@@ -80,9 +85,14 @@ hr{
 }
 
 .Webinar{
-	color: white;
-	background: #4b0063;
-	padding: 4rem 0;
+    color: white;
+    background-size: inherit;
+    background-image: url("https://uxgorilla.com/wp-content/uploads/2018/11/the-background.jpg");
+    padding: 9rem 0;
+    background-position: center;
+}
+.Webinar h1{
+	    font-size: 60px;
 }
 body{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -90,6 +100,7 @@ body{
 	letter-spacing: 1px;
 }
 .webinar-date p{
+	margin: 0px 27px;
 	font-size: 17px;
 	margin-bottom: 10px !important;
 }
@@ -130,6 +141,7 @@ body{
 	font-size: 38px;
 }
 .topicimage{
+	border-radius: 4px;
 	margin:0px 25px;
 }
 
@@ -148,6 +160,14 @@ body{
 	font-size: 13px;
 	margin: -10px;
 }
+
+.cta{
+	text-align: right ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 61px;
+}
+
 .btn-cta{
 	letter-spacing: 2px;
 	width: 109px;
@@ -192,15 +212,18 @@ body{
     line-height: 39px;
     background-color: #000;
 }
-.ninjaform p {
+/*.ninjaform p {
 	    margin: 0px 27px !important;
-	}
+	}*/
 .mobilefix{
 	padding-right: 0px; 
      padding-left: 0px; 
 }
 
 @media (max-width: 576px) {
+	.cta {
+		text-align: center;
+	}
 	.ninjaform {
 	    padding: 14px;
 	    margin: 1px;
@@ -216,8 +239,8 @@ body{
     	font-size: 32px;
 	}
 	.topicimage {
-	    width: 80%;
-	    margin: 19px 25px;
+	    width: 100%;
+    	margin: 19px 0px;
 	}
 	.col-sm.text-center {
 	    padding: 23px;
@@ -245,4 +268,17 @@ body{
 		font-size: 26px;	
 	}
 	
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(101, 205, 70, 0.6);
+    border-color: #65cd46;
+    box-shadow: none;
+}
+.newBreadcrumb{
+	padding: 0px;
+    width: 215px;
+    background: none;
 }

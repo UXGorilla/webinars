@@ -20,8 +20,20 @@ methods:{
 	}
 },
 template:`
-<div class="container-fluid">
+<div class="container-fluid" style="margin-bottom: 85px;">
 	<div class="backg-form"  v-if="data">
+		<div class="container">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb newBreadcrumb">
+					<li class="breadcrumb-item">
+						<router-link to="/">
+							<a>Webinars</a>
+						</router-link>
+					</li>
+					<li class="breadcrumb-item active" aria-current="page" disabled>Registration</li>
+				</ol>
+			</nav>
+		</div>
 		<div class="container">
 			<div class="row">
 				<div class="col webinar-speaker-col-left">
@@ -84,6 +96,7 @@ template:`
 			<div class="col-sm-6">
 				<h2>About This Webinar</h2>
 				<p 
+				class="text-justify" 
 				v-if="data.post_content">
 				{{data.post_content}}
 			</p>
@@ -97,6 +110,7 @@ template:`
 	
 	
 </div>
+ <div class="container-fluid">
 	<div class="container presenters">
 		<h2 class="text-center">Presenters</h2>
 		<div class="row">
@@ -130,6 +144,6 @@ template:`
 		</div>  
 	</div>
 </div>
-
+</div>
 `
 }
