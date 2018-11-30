@@ -1,0 +1,248 @@
+#logo{
+	width: 38px;
+	margin-left: 168px;
+}
+#logo-after::after{
+	font-family: 'Montserrat', sans-serif;
+	content: "UX GORILLA";
+	color: #4a4a4a;
+	position: relative;
+	font-size: 30px;
+	top: 15px;
+	left: -10px; 
+}
+
+.webinar-card{
+	margin:12px;
+	border-radius:5px;
+	max-width: 500px;
+	display: inline-block;
+	min-height: 311px;
+	padding: 30px 15px;
+
+	-webkit-box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.37);
+	-moz-box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.37);
+	box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.37);
+	
+
+}
+.topic-inner{
+	margin-bottom: 8px;
+
+}
+.main-row-webinar{
+	justify-content: center;
+}
+.webinar-card img{
+	display: block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+
+.speakersimage img{
+	width: 100%;
+	border-radius: 7px;
+	
+}
+.col-sm-2.speakersimage {
+	padding: 0px !important;
+}
+.topicimage{
+	width: 100%;
+}
+p{
+	margin: 1px;
+
+}
+.topic-name{
+	min-height: 71px;
+	font-size: 25px;
+	font-weight: 400;
+}
+hr{
+	margin:10px auto;
+}
+.webinar-card-btn{
+	letter-spacing: 2px;
+	font-weight: 600;
+	color: #ffffff;
+	background-color: rgb(48, 204, 69);
+	white-space: normal;
+	margin: 30px 0px;
+}
+.details-btn{
+	letter-spacing: 2px;
+	color: #ffffff;
+	background-color: rgb(48, 204, 69);
+	font-weight: 600;
+}
+
+.Webinar{
+	color: white;
+	background: #4b0063;
+	padding: 4rem 0;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #4a4a4a;
+	letter-spacing: 1px;
+}
+.webinar-date p{
+	font-size: 17px;
+	margin-bottom: 10px !important;
+}
+.detail-topic-banner{
+	padding: 100px;
+	background: #f7f7f7;
+}
+
+.ninjaform{
+	padding: 40px;
+	margin: 10px;
+}
+.backg-form{
+	 padding-top: 60px;
+	background-image: url('https://uxgorilla.com/wp-content/uploads/2018/09/7063-3.jpg');
+	background-position: center;
+    background-size: cover;
+}
+
+
+.webinar-speaker-col-left h1 {
+	font-size: 33px;
+    margin: 10px;
+    color: #32245f;
+}
+.webinar-speaker-col-left h3 {
+   font-size: 18px;
+   font-weight: 600;
+    color: #32245f;
+}
+.row.speakers-section {
+    margin: 31px 0px;
+}
+.detail-topic-banner p{
+	margin: 20px 0px;
+}
+.detail-topic-banner h2{
+	font-size: 38px;
+}
+.topicimage{
+	margin:0px 25px;
+}
+
+.presenters{
+	padding: 50px 0px;
+}
+.presenters img{
+	width: 23%;
+}
+.presenters h4{
+	font-size: 17px;
+	margin: 15px;
+	font-weight: 600;
+}
+.presenters p{
+	font-size: 13px;
+	margin: -10px;
+}
+.btn-cta{
+	letter-spacing: 2px;
+	width: 109px;
+	margin: 2px 0px;
+}
+
+.webinar-iframe{
+	width: 100%;
+	border: none; 
+	height: 592px;
+}
+.about_speaker{
+		    text-align: justify;
+	}
+.preloader {
+	margin-left:auto;
+   	margin-right:auto;
+  	border: 10px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 16px solid #3498db;
+	width: 60px;
+	height: 60px;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.footer {
+    position: fixed;
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+    height: 39px;
+    line-height: 39px;
+    background-color: #000;
+}
+.ninjaform p {
+	    margin: 0px 27px !important;
+	}
+.mobilefix{
+	padding-right: 0px; 
+     padding-left: 0px; 
+}
+
+@media (max-width: 576px) {
+	.ninjaform {
+	    padding: 14px;
+	    margin: 1px;
+	}
+	.ninjaform p {
+	    margin: 0px 0px;
+	}
+	.detail-topic-banner {
+	    padding: 25px;
+	    background: #f7f7f7;
+	}
+	.detail-topic-banner h2 {
+    	font-size: 32px;
+	}
+	.topicimage {
+	    width: 80%;
+	    margin: 19px 25px;
+	}
+	.col-sm.text-center {
+	    padding: 23px;
+	}
+	.about_speaker{
+		    padding: 10px;
+		    text-align: justify;
+	}
+	#logo {
+    width: 38px;
+     margin-left: 0px; 
+	}
+	.webinar-card {
+	margin: 0px;
+	}
+	.row.speakers-section {
+    margin: 0px 0px;
+	}
+	.mobilefix{
+		width: 193px;
+    	text-align: center;
+    	margin-top: 20px;
+	}
+	.webinar-speaker-col-left h1{
+		font-size: 26px;	
+	}
+	
+}

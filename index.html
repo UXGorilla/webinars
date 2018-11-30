@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">  
+  <title>Webinar</title>
+</head>
+<body>
+  <div id="app">
+    <uxg-header-view></uxg-header-view>
+    <!-- <uxg-list-view :data='data'></uxg-list-view> -->
+ <!--  <webinar-detail-page  
+  v-for="data in speakersData"
+  :data='data'
+  :key = 'data.id'
+  ></webinar-detail-page> -->
+  
+  <router-view></router-view>
+
+  <!-- ---------------------------------------landing/registration page---------------------------------- -->
+  
+
+
+
+
+
+  <uxg-footer-view class="footer"></uxg-footer-view>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- <script type="text/javascript" src="scripts/components/init.vue"></script> -->
+<script type="text/javascript" src="scripts/components/header.vue"></script>
+<script type="text/javascript" src="scripts/components/webinar-card.vue"></script>
+<script type="text/javascript" src="scripts/components/webinar-detail-page.vue"></script>
+<script type="text/javascript" src="scripts/components/footerView.vue"></script>
+<script src="scripts/axios.min.js"></script>
+<script type="text/javascript" src="scripts/vue.min.js"></script>
+<script type="text/javascript" src="scripts/vue-router.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+<script src="scripts/jquery-3.3.1.slim.min.js"></script>
+<script src="scripts/popper.min.js"></script>
+<script type="text/javascript" src="styles/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
