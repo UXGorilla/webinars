@@ -1,0 +1,25 @@
+webinar custom fields:-
+
+	about_speaker :- speaker brief information
+
+	broadcast_date :- event date but in this format " yyyy/mm/dd hh:mm:ss " for calulating and showing in the result in upcoming or previous tabs
+
+	button_status :- shows register now or watch recorded webinar
+
+	presenter_1_image :- img link of guarv sir or any other presenter 
+
+	presenter_1_name
+
+	presenter_2_image :- speaker's img link
+
+	presenter_2_name
+
+	webinar_job_title :- speaker's job title
+
+	webinar_ninja_form :- link of the page to show in the iframe as the registraion form, needs to create a seprate page becuse ninja form doesnt support rest currently
+
+	webinar_schedule_date :- event date only for displaying on webpage 
+
+	webinar_topic_image :- event topic image link
+
+	recorded_webinar_link:- blog/post link to redirect user on the recorded webinar video and post 
